@@ -1,0 +1,119 @@
+.form-container {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  /* justify-content: center; */
+  margin: auto;
+  margin-top: 0px;
+  /* padding: 20px; */
+  /* border-radius: 25px; */
+  box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+  background-color: rgb(164, 194, 191);
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.form-container h1 {
+  color: #03442D;
+  font-size: 2rem;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+  margin: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+.form-input {
+  padding: 12px;
+  margin: 20px;
+  width: 65%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgba(243, 236, 219, 0.5);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+  color: #03442D;
+  font-size: 1rem;
+}
+
+.form-button {
+  width: 50%;
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-button:hover {
+  cursor: pointer;
+  background-color: #03442D;
+}
+::placeholder {
+  color: #03442D;
+  opacity: 50%;
+}
+.option  {
+  color: 03442D;
+}
+
+.forgot-password {
+  color: #03442D;
+  text-decoration: none;
+  font-size: 14px;
+  text-shadow: 0.5px 0.5px white;
+}
+.background {
+  background: url("../assets/img/vet_login.png") no-repeat center center/cover;
+  height: 100vh;
+  overflow: auto;
+  position: relative;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-container-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin: auto;
+  /* margin-top: 50px; */
+  /* padding: 20px; */
+  padding-bottom: 30px;
+  background-color: rgb(164, 194, 191);
+  width: 700px;
+  position: absolute;
+  right: 0;
+}
+
+.form-container-register h1 {
+  color: #03442D;
+  font-size: 2rem;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+  margin: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+
+.form-input-register {
+  padding: 12px;
+  margin: 20px;
+  width: 65%;
+  border: none;
+  outline: none;
+  background-color: rgba(243, 236, 219, 0.5);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+  color: #03442D;
+  font-size: 1rem;
+  border-radius: 5px;
+}
